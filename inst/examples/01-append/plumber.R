@@ -3,6 +3,8 @@ values <- 15
 MAX_VALS <- 50
 
 #* Append to our values
+#* @param val
+#* @param res
 #* @post /append
 function(val, res){
   v <- as.numeric(val)
